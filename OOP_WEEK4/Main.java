@@ -15,7 +15,6 @@ public class Main {
         String kota2 = input.nextLine();
         kota2.toLowerCase();
 
-        System.out.println(kota1.compareTo(kota2));
         if(kota1.compareTo(kota2) > 0){
             System.out.println("Kedua kota tersebut (urut) : " + kota2 + " dan " + kota1 );
         }else{
